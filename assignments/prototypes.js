@@ -17,7 +17,7 @@
   function GameObject(attributes) {
     this.createdAt = attributes.createdAt;
     this.name = attributes.name;
-    this.dimension = attributes.dimensions;
+    this.dimensions = attributes.dimensions;
   }
   GameObject.prototype.destroy = function destroy() {
   return `${this.name} was removed from the game.`
@@ -103,7 +103,7 @@ Humanoid.prototype.greet = function () {
       length: 1,
       width: 2,
       height: 4,
-    },
+  },
     healthPoints: 10,
     name: 'Lilith',
     team: 'Forest Kingdom',
